@@ -1,0 +1,25 @@
+/* Text Alignment Utilities */
+.text-center {
+    text-align: center;
+}
+
+/* Background Color Utilities */
+.bg-black {
+    background: #141414; /* Pure black se thoda soft premium black kiya */
+}
+
+/* Layout Margin Utilities */
+.mx-auto {
+    margin: 20px auto; }
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}

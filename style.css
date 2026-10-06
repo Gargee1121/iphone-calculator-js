@@ -1,0 +1,89 @@
+@import url('https://googleapis.com');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; 
+  font-style: normal;
+  background-color: #f5f5f7;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 20px;
+  border-radius: 30px; 
+  width: max-content; 
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+}
+.container .row .btn-zero {
+    width: 134px; /* Do buttons ke barabar lambi width */
+    border-radius: 35px; /* Circular se premium oval shape */
+    justify-content: flex-start;
+    padding-left: 25px;
+}
+
+
+.row {
+    margin: 10px 0; 
+    display: flex; 
+    justify-content: center;
+}
+
+.button {
+    padding: 0;
+    margin: 0 5px; 
+    width: 62px;   
+    height: 62px;  
+    font-size: 1.4rem;
+    font-weight: 500;
+    border: none;  
+    border-radius: 50%; 
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #333333; 
+    transition: filter 0.1s ease;
+}
+
+.button:active {
+    filter: brightness(1.4);
+}
+
+.container .row:nth-child(2) .button {
+    background-color: #a5a5a5;
+    color: black;
+}
+
+.row .button:last-child {
+    background-color: #ff9f0a;
+    color: white;
+}
+
+.container .row:nth-child(6) .button:nth-child(2) {
+    background-color: #ff9f0a;
+    color: white;
+}
+
+.input {
+    width: 278px; 
+    height: 65px; 
+    font-size: 2.5rem;
+    padding: 5px 15px;
+    text-align: right;
+    border: none;
+    border-radius: 12px;
+    background: #dfd3d3; 
+    color: rgb(15, 15, 15);
+    box-sizing: border-box;
+    outline: none;
+    margin-bottom: 5px;
+}
